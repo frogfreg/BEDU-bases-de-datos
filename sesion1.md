@@ -58,3 +58,4 @@ Usando la base de datos `tienda`, escribe una consulta que permita obtener el to
 
 ![](./images/sesion1/3-1.png)
 
+## [Ejercicios sesion 1](./ejercicios-sesion1.sql)

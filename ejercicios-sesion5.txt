@@ -1,0 +1,150 @@
+    #1 
+
+   {
+    project: {
+     phone_number: 1,
+     email_address: 1,
+     twitter_username: 1,
+     blog_url: 1
+    }
+   }
+   
+   #2
+   
+   {
+    project: {
+     class_id: 1
+    }
+   }
+   
+   #3
+   
+   {
+    filter: {
+     founded_month: 10
+    },
+    project: {
+     name: 1
+    }
+   }
+   
+   #4
+   
+   {
+    filter: {
+     founded_year: 2008
+    },
+    project: {
+     name: 1
+    }
+   }
+   
+   #5
+   {
+    filter: {
+     author: 'machine'
+    }
+   }
+   #6
+   {
+    filter: {
+     $or: [
+      {
+       class_id: 357
+      },
+      {
+       class_id: 57
+      },
+      {
+       class_id: 465
+      }
+     ]
+    },
+    project: {
+     scores: 1
+    }
+   }
+   
+   #7
+   
+   {
+    filter: {
+     $and: [
+      {
+       founded_month: 10
+      },
+      {
+       founded_year: 2008
+      }
+     ]
+    }
+   }
+   
+   #8
+   
+   {
+    filter: {
+     number_of_employees: {
+      $gt: 50
+     }
+    }
+   }
+   
+   #9
+   
+   {
+    filter: {
+     stops: {
+      $in: [
+       1,
+       2,
+       3,
+       4,
+       5
+      ]
+     }
+    }
+   }
+   
+   #10
+   {
+    filter: {
+     number_of_employees: {
+      $ne: null
+     }
+    },
+    sort: {
+     number_of_employees: 1
+    },
+    limit: 1
+   }
+   
+   #11
+   
+   {
+    filter: {
+     number_of_employees: {
+      $ne: null
+     }
+    },
+    sort: {
+     number_of_employees: -1
+    },
+    limit: 1
+   }
+   
+   
+   #12
+   {
+    sort: {
+     tripduration: -1
+    },
+    limit: 1
+   }
+   #13
+   {
+    sort: {
+     tripduration: 1
+    },
+    limit: 1
+   }

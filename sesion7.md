@@ -27,3 +27,9 @@ Usando el *pipeline* que generaste en el Reto 2, genera la vista correspondiente
 ### Solucion a reto 3
 
 ![](./images/sesion7/reto3-1.png)
+
+## Ejercicios sesion 7
+
+![](./images/sesion7/ejercicios-sesion7-1.png)
+![](./images/sesion7/ejercicios-sesion7-2.png)
+

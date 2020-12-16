@@ -19,3 +19,11 @@ Usando las colecciones `comments` y `users`, se requiere conocer el correo y con
 
 ![](./images/sesion7/reto2-1.png)
 ![](./images/sesion7/reto2-2.png)
+
+## Reto 3
+
+Usando el *pipeline* que generaste en el Reto 2, genera la vista correspondiente.
+
+### Solucion a reto 3
+
+![](./images/sesion7/reto3-1.png)
